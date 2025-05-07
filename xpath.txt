@@ -1,0 +1,115 @@
+html, css and javascript
+
+
+only the html code ll b visible by default after using "inspect" option
+
+webelements -> elements that is present inside a web page is called web elements 
+
+
+locators->  locating a particular elemnt inside a webpage. we use locator fr that 
+
+
+
+TAG - >
+...................
+
+div tag -> it helps to segment the webpage area, 
+<div> hello </div>
+
+this above tag use the entire line and it wont allow anything to be typed or added in the same line even if have spaces in the right side of the same line 
+
+...........
+
+input tag - > 
+
+wherever we can enter data inside a web page , comes under the input tag
+
+.................
+
+a tag-> anchor tag
+ 
+all the urls will be under this tag 
+
+...............
+
+
+span tag ->
+
+segmenting the area inside a webpage like div tag , but can use multiple span tag in same line
+
+<span> hi </span>   <span> hello </span> like this we can use multiple span tag in a same line
+...............
+
+
+li -ul tag ->
+
+ul-> unorder list 
+
+in a website in the lest side filters in any produt page , 
+
+categories will come under ul tag 
+
+products will come uner li tag
+
+..........................
+
+img tag -> images comes under img tag 
+
+..........................................
+
+
+types of xpath 
+
+ABSOLUTE
+
+starts with a '/' , not frequently used 
+
+how to use this absolute xpath
+
+use the "ctrl + f " after inspecting an element. this ll take you to the specific block of code where the element is there.
+
+absolute xpath ll start from the start of the DOM code 
+
+example :
+
+
+/html/body/div/div/div/div/div
+
+follows the code using the dropdowns only and not jumping to anything specific
+...........................
+
+
+
+Relative XPATH
+
+starts with "//" 
+this have five syntax 
+
+//tagname[@attribute name = 'attribute value'] => this is the basic syntax
+//tagname[text()='fulltext']
+//tagname[contains(@attribute name, 'attribute value')]
+//tagname[contains(text(), 'partial text')] 
+(//tagname[contains(@attributename, 'attribute value')])[index]
+
+...........................
+
+DYNAMIC XPATH
+
+parent 
+child
+ancestors
+decendants
+preceding-sibling   -> elder
+following-sibling   -> younger
+
+
+
+
+
+
+need to find the ancestor or a parent of the particular web element we are supposed to locate and then go from there using parent clild or ancestor concept.
+
+
+
+
+if need to select ID for xpath, use # symbol 

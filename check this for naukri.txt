@@ -1,0 +1,13 @@
+programming language : javascript
+
+automation : playwright 
+
+api testing : postman, rest assured
+
+reporting tools : 
+
+
+give me project explanation from a testing perspective with end to end flow, total no of test cases in manual, automation and time taken to execute, number of bugs raised , critical scenario , no od sprints, 
+
+playwright 2.5 years max 
+

@@ -1,0 +1,89 @@
+playwright day 2
+.....................
+
+can use css if there is no duplicate , if having duplicate , ll have to go with xpath 
+
+	in css can use #email
+
+................
+locators:
+
+1.xpath
+2.css
+3.inbuild playright 
+
+...............
+
+to have url and to have title -> will be used on the page by itself and the rest ll  be used for the web elements. 
+
+  
+
+...................
+
+types of assertion
+
+hard aseriton -> ll stop once anything fails 
+
+soft assertion -> ll continue till end and ll show you in report that where the error is or where it is failed 
+
+                 expect.soft(locator)     vs     expect
+
+
+
+..................
+
+
+give await only if there is further commands and can ignore if thats the last command 
+
+..........
+
+
+
+CODEGEN & PLAYWRIGHT INSPECTOR 
+
+
+
+
+
+
+//////////////
+
+
+understand the flow and then write this .
+.................................................................................
+
+
+Mouse based actions
+
+
+click
+double click
+scroll -  the value should bbe like graphs, positive value goes down and negative value goes up 
+drag and drop 
+
+.................................................................................
+
+
+playwright day 4
+
+frames 
+..............
+
+
+in frame concept , we cannot take anything other than src(url) or name , 
+
+definitely cannot use ID to locate 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

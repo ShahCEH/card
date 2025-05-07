@@ -1,0 +1,103 @@
+url
+
+how to destructure a URL
+
+https://api.something.com/data/2.5/weather?q=
+
+
+https:-> protocol
+
+api.something.com-> base url 
+
+data/2.5  -> resource
+
+
+// -> this is path parameter ( whatever that comes after the forward slash)
+
+? -> query parameter
+syntax will be ?key=value
+
+...............................................
+
+
+Authentication and authorization
+
+authentication-> what is it 
+
+authorization -> what it can do 
+
+
+ Authentication
+>>>>>>>>>
+
+noauth -> no authorization
+eg : regres  or aka free data or fake data
+
+basic auth -> have to give user name and password 
+http://postman-echo.com/basic-auth/
+username: postman
+pass: password
+
+use postman, get the link in "get "
+check the authentication without using the creds, it will give an unauthorized access http code.
+
+once u check the dropdown to the left and select the basic auth , then key in the creds , then if u do send now , it will give u the 200 success http code 
+
+also check the body, it will give the authentication as true :
+
+
+check in chatgpt for authentication authorization dummy website to use in trial 
+
+
+.............................
+api key 
+
+example : use the dummy site below
+openweathermap.org
+
+https://openweathermap.org/current
+
+signup with gmail ,
+
+
+under api call, look for the api, click on api key , once login into the api using the gmail , u can use the default api key from there  or else u can generate ur own
+
+
+https://api.openweathermap.org/data/2.5/weather?q=chennai&appid=e9f0f59481937c900968a02987143080
+
+
+appid = cefe802b0dbb9af94b3327d3f3d99bb3
+
+try the above
+
+
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+........................................................
+
+
+bearer token
+
+can create a token for a specific period and it ll get expired after the particular time. 
+
+sooraj and soovik concept 
+
+.............................
+
+
+
+experimental and global variable ..... > 
+
+environmental variable-> 
+
+
+right top, goto variable, -> create a new environment
+
+variable name > anything can be given 
+type > let it be default 
+
+api key> use the same api key u got from earlier 
+
+if its shows as E -> means environmental variable 
+
+..............................................................................

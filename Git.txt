@@ -1,0 +1,33 @@
+   Git 
+.........
+
+
+IT is like a version control , 
+
+once u uload the code to a repository , after that every time if u upload code to it , it s used to track the version of the code uploaded . 
+
+each upload will be saved as a separate version inside the same project .
+
+the older version wont get modified , 
+
+....................
+
+Github:
+...............
+Its a place where you save the files ( like g cloud or one drive )
+
+
+
+....................................................................
+linking the git to the loca machine using cmd prompt 
+open command prompt
+type
+
+git
+
+git config --global user.name ""
+
+git config --global user.email "shahssaa1@gmail.com"
+....................................................................
+
+if the file name in visual studio shows an  M in the right side - it means the file is modified 
